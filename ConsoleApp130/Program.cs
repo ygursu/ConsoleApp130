@@ -1,0 +1,10 @@
+﻿double sayi1 = 0, sayi2 = 0;
+Console.Write("Birinci sayıyı giriniz:");
+sayi1 = Convert.ToDouble(Console.ReadLine());
+Console.Write("İkinci sayıyı giriniz:");
+sayi2 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Topla= {0}", (sayi1 + sayi2));
+Console.WriteLine("Çıkar= {0}", (sayi1 - sayi2));
+Console.WriteLine("Çarpm= {0}", (sayi1 * sayi2));
+Console.WriteLine("Böl= {0}", (sayi1 / sayi2));
+Console.ReadKey();
